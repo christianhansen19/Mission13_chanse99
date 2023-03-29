@@ -1,6 +1,9 @@
+import Navigation from './Navigation';
+
 function Podcast() {
   return (
     <>
+      <Navigation />
       <div>
         <h1>My Podcasts</h1>
       </div>

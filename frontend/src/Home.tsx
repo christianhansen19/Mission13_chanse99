@@ -1,8 +1,11 @@
+import { Link } from 'react-router-dom';
 import styles from './Blah.module.css';
+import Navigation from './Navigation';
 
 function TopBanner(props: any) {
   return (
     <>
+      <Navigation />
       <div className="row">
         <div className="col-4">
           <img src="./JoelHiltonHeadshot.jpg" alt="Joel Hilton Headshot"></img>

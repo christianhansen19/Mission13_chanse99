@@ -1,10 +1,12 @@
 import data from './MovieData.json';
+import Navigation from './Navigation';
 
 const mds = data.MovieData;
 
 function MovieList() {
   return (
     <>
+      <Navigation />
       <div>
         <h3>Joel Hilton's Movie Collection</h3>
       </div>
@@ -17,6 +19,7 @@ function MovieList() {
               <th>Director</th>
               <th>Rating</th>
               <th>Category</th>
+              <th>Edited?</th>
             </tr>
           </thead>
           <tbody>
@@ -27,6 +30,7 @@ function MovieList() {
                 <td>{m.Director}</td>
                 <td>{m.Rating}</td>
                 <td>{m.Category}</td>
+                <td>{m.Edited}</td>
               </tr>
             ))}
             <tr>
