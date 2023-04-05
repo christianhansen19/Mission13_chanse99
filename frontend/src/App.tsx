@@ -2,7 +2,7 @@
 // import logo from './logo.svg';
 import './App.css';
 import TopBanner from './Home';
-import MovieList from './Movies';
+import MovieList from './movies/Movies';
 import Podcast from './Podcast';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import NotFoundPage from './NotFoundPage';
